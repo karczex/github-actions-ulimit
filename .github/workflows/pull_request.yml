@@ -13,5 +13,5 @@ jobs:
         with:
           java-version: 11
       - name: Check ulimit size
-        run: sudo ulimit
+        run: ulimit
 
