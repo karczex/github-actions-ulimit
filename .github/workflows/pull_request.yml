@@ -14,4 +14,8 @@ jobs:
           java-version: 11
       - name: Check ulimit size
         run: ulimit -a
+      - name: Check nproc
+        run: nproc
+
+
 
